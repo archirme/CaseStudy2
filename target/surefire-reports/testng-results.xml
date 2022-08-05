@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-03T09:36:05Z" name="Suite" finished-at="2022-08-03T09:36:45Z" duration-ms="39594">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@78452606]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-08-03T09:36:05Z" name="Firsttest" finished-at="2022-08-03T09:36:45Z" duration-ms="39594">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@78452606]" started-at="2022-08-03T15:06:05Z" name="setUpClass" finished-at="2022-08-03T15:06:06Z" duration-ms="493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5ad6cc21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@78452606]" started-at="2022-08-03T15:06:06Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-03T15:06:22Z" duration-ms="16810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Book one way flight for the user from Ahemdabad to Chennai"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flight Booking functionality of ibibo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@78452606]" started-at="2022-08-03T15:06:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-03T15:06:38Z" duration-ms="15900" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Book one way flight for the user from Ahemdabad to Chennai"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flight Booking functionality of ibibo website"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable  (Session info: chrome=103.0.5060.134)Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'System info: host: 'DESKTOP-D5OBL1K', ip: '192.168.1.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}), userDataDir=C:\Users\anilc\AppData\Local\Temp\scoped_dir21548_177212209}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57469}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.5060.134, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]Session ID: c5f604c6cae5287a4f9fed8c58b59cb1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable  (Session info: chrome=103.0.5060.134)Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'System info: host: 'DESKTOP-D5OBL1K', ip: '192.168.1.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}), userDataDir=C:\Users\anilc\AppData\Local\Temp\scoped_dir21548_177212209}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57469}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.5060.134, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]Session ID: c5f604c6cae5287a4f9fed8c58b59cb1at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:532)at commonutilities.BaseTest.closeAll(BaseTest.java:56)at stepdefinition.FlightBookingStepDefinition.cleanup(FlightBookingStepDefinition.java:92)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@78452606]" started-at="2022-08-03T15:06:38Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-03T15:06:42Z" duration-ms="3767" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Book one way flight for the user from Ahemdabad to Chennai"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flight Booking functionality of ibibo website"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "org.openqa.selenium.WebElement.getText()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "org.openqa.selenium.WebElement.getText()" is nullat pageObjects.ibibopage.selectSourceDestinationCity(ibibopage.java:233)at stepdefinition.FlightBookingStepDefinition.flightBookingTest(FlightBookingStepDefinition.java:64)at ✽.User provides details for "Round-trip" flight with "29-08-2022" and "23-09-2022" from "Coimbatore" to "Chennai" with class as "Business" for "2","1","1"(file:///C:/Users/anilc/selenium_training/CaseStudy2/src/test/java/features/FlightBooking.feature:28)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@78452606]" started-at="2022-08-03T15:06:42Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-03T15:06:44Z" duration-ms="2491" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Book one way flight for the user from Ahemdabad to Chennai"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flight Booking functionality of ibibo website"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot determine loading statusfrom disconnected: received Inspector.detached event  (Session info: chrome=103.0.5060.134)Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'System info: host: 'DESKTOP-D5OBL1K', ip: '192.168.1.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}), userDataDir=C:\Users\anilc\AppData\Local\Temp\scoped_dir23772_270764739}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57653}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.5060.134, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]Session ID: 2e949ac9bc5c5eba38660fa2db7aa5c1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading statusfrom disconnected: received Inspector.detached event  (Session info: chrome=103.0.5060.134)Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'System info: host: 'DESKTOP-D5OBL1K', ip: '192.168.1.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}), userDataDir=C:\Users\anilc\AppData\Local\Temp\scoped_dir23772_270764739}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57653}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.5060.134, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]Session ID: 2e949ac9bc5c5eba38660fa2db7aa5c1at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:370)at commonutilities.CommonMethods.launchPage(CommonMethods.java:142)at stepdefinition.FlightBookingStepDefinition.launchURL(FlightBookingStepDefinition.java:37)at ✽.User launches website successfully for one way trip(file:///C:/Users/anilc/selenium_training/CaseStudy2/src/test/java/features/FlightBooking.feature:27)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@78452606]" started-at="2022-08-03T15:06:44Z" name="tearDownClass" finished-at="2022-08-03T15:06:45Z" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Firsttest -->
+  </suite> <!-- Suite -->
+</testng-results>

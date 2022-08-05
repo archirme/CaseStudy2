@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- <groups>
+<run>
+<include name="Sanity"/>
+</run>
+</groups> -->
+  <test name="Firsttest" verbose="0">
+    <classes>
+      <class name="runner.TestRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

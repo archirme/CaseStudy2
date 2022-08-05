@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="40.409" tests="4" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\anilc\selenium_training\CaseStudy2\target\test-classes;C:\Users\anilc\selenium_training\CaseStudy2\target\classes;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-java\3.5.3\selenium-java-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-api\3.5.3\selenium-api-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.5.3\selenium-chrome-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.5.3\selenium-edge-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.5.3\selenium-firefox-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.5.3\selenium-ie-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.5.3\selenium-opera-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.5.3\selenium-remote-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.5.3\selenium-safari-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-support\3.5.3\selenium-support-3.5.3.jar;C:\Users\anilc\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\anilc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\anilc\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\anilc\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\anilc\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\anilc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\anilc\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\anilc\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.23\cssparser-0.9.23.jar;C:\Users\anilc\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\anilc\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\anilc\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\anilc\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\anilc\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\anilc\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\anilc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\anilc\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.27\htmlunit-2.27.jar;C:\Users\anilc\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.27\htmlunit-core-js-2.27.jar;C:\Users\anilc\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.27\neko-htmlunit-2.27.jar;C:\Users\anilc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\anilc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\anilc\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\jetty-client\9.4.5.v20170502\jetty-client-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\jetty-http\9.4.5.v20170502\jetty-http-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\jetty-io\9.4.5.v20170502\jetty-io-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\jetty-util\9.4.5.v20170502\jetty-util-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\anilc\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\anilc\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\anilc\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.27\htmlunit-driver-2.27.jar;C:\Users\anilc\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.5.v20170502\websocket-api-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.5.v20170502\websocket-client-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.5.v20170502\websocket-common-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\anilc\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\anilc\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\anilc\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\anilc\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Users\anilc\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\anilc\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\anilc\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\anilc\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\anilc\.m2\repository\org\apache\logging\log4j\log4j-core\2.18.0\log4j-core-2.18.0.jar;C:\Users\anilc\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\anilc\.m2\repository\org\springframework\spring-context\5.1.5.RELEASE\spring-context-5.1.5.RELEASE.jar;C:\Users\anilc\.m2\repository\org\springframework\spring-aop\5.1.5.RELEASE\spring-aop-5.1.5.RELEASE.jar;C:\Users\anilc\.m2\repository\org\springframework\spring-beans\5.1.5.RELEASE\spring-beans-5.1.5.RELEASE.jar;C:\Users\anilc\.m2\repository\org\springframework\spring-core\5.1.5.RELEASE\spring-core-5.1.5.RELEASE.jar;C:\Users\anilc\.m2\repository\org\springframework\spring-jcl\5.1.5.RELEASE\spring-jcl-5.1.5.RELEASE.jar;C:\Users\anilc\.m2\repository\org\springframework\spring-expression\5.1.5.RELEASE\spring-expression-5.1.5.RELEASE.jar;C:\Users\anilc\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\anilc\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\anilc\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\anilc\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\anilc\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\anilc\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\anilc\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\anilc\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\anilc\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\anilc\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\anilc\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\anilc\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\anilc\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\anilc\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-java\7.4.1\cucumber-java-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-core\7.4.1\cucumber-core-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-gherkin\7.4.1\cucumber-gherkin-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.4.1\cucumber-gherkin-messages-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\anilc\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\anilc\.m2\repository\io\cucumber\datatable\7.4.1\datatable-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-plugin\7.4.1\cucumber-plugin-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\docstring\7.4.1\docstring-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\html-formatter\19.2.0\html-formatter-19.2.0.jar;C:\Users\anilc\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\anilc\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-testng\7.4.1\cucumber-testng-7.4.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\anilc\AppData\Local\Temp\surefire3763481631952578739\surefirebooter1764370898731682779.jar C:\Users\anilc\AppData\Local\Temp\surefire3763481631952578739 2022-08-03T15-06-04_353-jvmRun1 surefire12989304707657801729tmp surefire_05197070049946252935tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\anilc\selenium_training\CaseStudy2\target\test-classes;C:\Users\anilc\selenium_training\CaseStudy2\target\classes;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-java\3.5.3\selenium-java-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-api\3.5.3\selenium-api-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.5.3\selenium-chrome-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.5.3\selenium-edge-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.5.3\selenium-firefox-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.5.3\selenium-ie-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.5.3\selenium-opera-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.5.3\selenium-remote-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.5.3\selenium-safari-driver-3.5.3.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\selenium-support\3.5.3\selenium-support-3.5.3.jar;C:\Users\anilc\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\anilc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\anilc\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\anilc\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\anilc\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\anilc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\anilc\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\anilc\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.23\cssparser-0.9.23.jar;C:\Users\anilc\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\anilc\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\anilc\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\anilc\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\anilc\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\anilc\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\anilc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\anilc\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.27\htmlunit-2.27.jar;C:\Users\anilc\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.27\htmlunit-core-js-2.27.jar;C:\Users\anilc\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.27\neko-htmlunit-2.27.jar;C:\Users\anilc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\anilc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\anilc\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\jetty-client\9.4.5.v20170502\jetty-client-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\jetty-http\9.4.5.v20170502\jetty-http-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\jetty-io\9.4.5.v20170502\jetty-io-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\jetty-util\9.4.5.v20170502\jetty-util-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\anilc\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\anilc\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\anilc\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\anilc\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.27\htmlunit-driver-2.27.jar;C:\Users\anilc\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.5.v20170502\websocket-api-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.5.v20170502\websocket-client-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.5.v20170502\websocket-common-9.4.5.v20170502.jar;C:\Users\anilc\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\anilc\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\anilc\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\anilc\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\anilc\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Users\anilc\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\anilc\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\anilc\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\anilc\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\anilc\.m2\repository\org\apache\logging\log4j\log4j-core\2.18.0\log4j-core-2.18.0.jar;C:\Users\anilc\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\anilc\.m2\repository\org\springframework\spring-context\5.1.5.RELEASE\spring-context-5.1.5.RELEASE.jar;C:\Users\anilc\.m2\repository\org\springframework\spring-aop\5.1.5.RELEASE\spring-aop-5.1.5.RELEASE.jar;C:\Users\anilc\.m2\repository\org\springframework\spring-beans\5.1.5.RELEASE\spring-beans-5.1.5.RELEASE.jar;C:\Users\anilc\.m2\repository\org\springframework\spring-core\5.1.5.RELEASE\spring-core-5.1.5.RELEASE.jar;C:\Users\anilc\.m2\repository\org\springframework\spring-jcl\5.1.5.RELEASE\spring-jcl-5.1.5.RELEASE.jar;C:\Users\anilc\.m2\repository\org\springframework\spring-expression\5.1.5.RELEASE\spring-expression-5.1.5.RELEASE.jar;C:\Users\anilc\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\anilc\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\anilc\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\anilc\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\anilc\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\anilc\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\anilc\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\anilc\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\anilc\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\anilc\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\anilc\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\anilc\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\anilc\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\anilc\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-java\7.4.1\cucumber-java-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-core\7.4.1\cucumber-core-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-gherkin\7.4.1\cucumber-gherkin-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.4.1\cucumber-gherkin-messages-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\anilc\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\anilc\.m2\repository\io\cucumber\datatable\7.4.1\datatable-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-plugin\7.4.1\cucumber-plugin-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\docstring\7.4.1\docstring-7.4.1.jar;C:\Users\anilc\.m2\repository\io\cucumber\html-formatter\19.2.0\html-formatter-19.2.0.jar;C:\Users\anilc\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\anilc\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\anilc\.m2\repository\io\cucumber\cucumber-testng\7.4.1\cucumber-testng-7.4.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\anilc"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\anilc\selenium_training\CaseStudy2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\anilc\AppData\Local\Temp\surefire3763481631952578739\surefirebooter1764370898731682779.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="anilc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\anilc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\anilc\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="C:\Users\anilc\selenium_training\CaseStudy2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\anilc\Documents\Learning\Maven\apache-maven-3.8.5\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Learning\axis2-1.6.2\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\anilc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;;C:\Users\anilc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Java\jdk1.8.0_321\bin;C:\Program Files\Java\scripts;C:\Program Files\Azure Data Studio\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario" classname="runner.TestRunner" time="16.81"/>
+  <testcase name="runScenario" classname="runner.TestRunner" time="15.908">
+    <failure message="chrome not reachable&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;DESKTOP-D5OBL1K&apos;, ip: &apos;192.168.1.162&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}), userDataDir=C:\Users\anilc\AppData\Local\Temp\scoped_dir21548_177212209}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57469}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.5060.134, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: c5f604c6cae5287a4f9fed8c58b59cb1" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-D5OBL1K', ip: '192.168.1.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}), userDataDir=C:\Users\anilc\AppData\Local\Temp\scoped_dir21548_177212209}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57469}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.5060.134, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: c5f604c6cae5287a4f9fed8c58b59cb1
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Book one way flight for the user from Ahemdabad to Chennai                                                                                  &amp#27;[90m# src/test/java/features/FlightBooking.feature:33&amp#27;[0m
+Start of the Test Suite
+Start of Test
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser launches website successfully for one way trip&amp#27;[0m                                                                                                   &amp#27;[90m# stepdefinition.FlightBookingStepDefinition.launchURL()&amp#27;[0m
+The Trip type is Round-tripRound-trip
+City selected is Ahmedabad, India 
+(AMD)
+Sardar Vallabhbhai Patel International Air...
+IN
+City selected is Chennai, India 
+(MAA)
+Chennai International Airport
+IN
+Date Day3Req Day 7
+Date Day4Req Day 7
+Date Day5Req Day 7
+Date Day6Req Day 7
+Date Day7Req Day 7
+Date Day3Req Day 4
+Date Day4Req Day 4
+Date Day3Req Day 25
+Date Day4Req Day 25
+Date Day5Req Day 25
+Date Day6Req Day 25
+Date Day7Req Day 25
+Date Day8Req Day 25
+Date Day9Req Day 25
+Date Day10Req Day 25
+Date Day11Req Day 25
+Date Day12Req Day 25
+Date Day13Req Day 25
+Date Day14Req Day 25
+Date Day15Req Day 25
+Date Day16Req Day 25
+Date Day17Req Day 25
+Date Day18Req Day 25
+Date Day19Req Day 25
+Date Day20Req Day 25
+Date Day21Req Day 25
+Date Day22Req Day 25
+Date Day23Req Day 25
+Date Day24Req Day 25
+Date Day25Req Day 25
+start date04-08-2022
+start date + 22022-08-05
+start date + 407-08-2022
+system date2022-08-03
+Number of Adults1
+No of Children added is 0
+No of Infants added is 0
+Class Selection is Economy
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser provides details for "&amp#27;[0m&amp#27;[32m&amp#27;[1mRound-trip&amp#27;[0m&amp#27;[32m" flight with "&amp#27;[0m&amp#27;[32m&amp#27;[1m04-08-2022&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m25-08-2022&amp#27;[0m&amp#27;[32m" from "&amp#27;[0m&amp#27;[32m&amp#27;[1mAhmedabad&amp#27;[0m&amp#27;[32m" to "&amp#27;[0m&amp#27;[32m&amp#27;[1mChennai&amp#27;[0m&amp#27;[32m" with class as "&amp#27;[0m&amp#27;[32m&amp#27;[1mEconomy&amp#27;[0m&amp#27;[32m" for "&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# stepdefinition.FlightBookingStepDefinition.flightBookingTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser able to click on Search and get the list of flights available&amp#27;[0m                                                                                     &amp#27;[90m# stepdefinition.FlightBookingStepDefinition.searchflights()&amp#27;[0m
+End of Test
+      &amp#27;[31morg.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-D5OBL1K', ip: '192.168.1.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}), userDataDir=C:\Users\anilc\AppData\Local\Temp\scoped_dir21548_177212209}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57469}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.5060.134, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: c5f604c6cae5287a4f9fed8c58b59cb1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:532)
+	at commonutilities.BaseTest.closeAll(BaseTest.java:56)
+	at stepdefinition.FlightBookingStepDefinition.cleanup(FlightBookingStepDefinition.java:92)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 3130
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 03, 2022 3:06:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:ERROR Could not find value for key log4j.appender.CONSOLE
+log4j:ERROR Could not instantiate appender named "CONSOLE".
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunner" time="3.792">
+    <failure message="Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because the return value of &quot;org.openqa.selenium.WebElement.getText()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "org.openqa.selenium.WebElement.getText()" is null
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Book one way flight for the user from Ahemdabad to Chennai                                                                                    &amp#27;[90m# src/test/java/features/FlightBooking.feature:34&amp#27;[0m
+Start of the Test Suite
+Start of Test
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser launches website successfully for one way trip&amp#27;[0m                                                                                                     &amp#27;[90m# stepdefinition.FlightBookingStepDefinition.launchURL()&amp#27;[0m
+The Trip type is Round-tripRound-trip
+City selected is Coimbatore, India 
+(CJB)
+Coimbatore Airport
+IN
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mUser provides details for "&amp#27;[0m&amp#27;[31m&amp#27;[1mRound-trip&amp#27;[0m&amp#27;[31m" flight with "&amp#27;[0m&amp#27;[31m&amp#27;[1m29-08-2022&amp#27;[0m&amp#27;[31m" and "&amp#27;[0m&amp#27;[31m&amp#27;[1m23-09-2022&amp#27;[0m&amp#27;[31m" from "&amp#27;[0m&amp#27;[31m&amp#27;[1mCoimbatore&amp#27;[0m&amp#27;[31m" to "&amp#27;[0m&amp#27;[31m&amp#27;[1mChennai&amp#27;[0m&amp#27;[31m" with class as "&amp#27;[0m&amp#27;[31m&amp#27;[1mBusiness&amp#27;[0m&amp#27;[31m" for "&amp#27;[0m&amp#27;[31m&amp#27;[1m2&amp#27;[0m&amp#27;[31m","&amp#27;[0m&amp#27;[31m&amp#27;[1m1&amp#27;[0m&amp#27;[31m","&amp#27;[0m&amp#27;[31m&amp#27;[1m1&amp#27;[0m&amp#27;[31m"&amp#27;[0m &amp#27;[90m# stepdefinition.FlightBookingStepDefinition.flightBookingTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int,int)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "org.openqa.selenium.WebElement.getText()" is null
+	at pageObjects.ibibopage.selectSourceDestinationCity(ibibopage.java:233)
+	at stepdefinition.FlightBookingStepDefinition.flightBookingTest(FlightBookingStepDefinition.java:64)
+	at âœ½.User provides details for "Round-trip" flight with "29-08-2022" and "23-09-2022" from "Coimbatore" to "Chennai" with class as "Business" for "2","1","1"(file:///C:/Users/anilc/selenium_training/CaseStudy2/src/test/java/features/FlightBooking.feature:28)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser able to click on Search and get the list of flights available&amp#27;[0m                                                                                       &amp#27;[90m# stepdefinition.FlightBookingStepDefinition.searchflights()&amp#27;[0m
+End of Test
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-D5OBL1K', ip: '192.168.1.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}), userDataDir=C:\Users\anilc\AppData\Local\Temp\scoped_dir3660_273416295}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57573}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.5060.134, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: fe7c7452470fda782001bddd4cd802b3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:532)
+	at commonutilities.BaseTest.closeAll(BaseTest.java:56)
+	at stepdefinition.FlightBookingStepDefinition.cleanup(FlightBookingStepDefinition.java:92)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 31201
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 03, 2022 3:06:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:ERROR Could not find value for key log4j.appender.CONSOLE
+log4j:ERROR Could not instantiate appender named "CONSOLE".
+Aug 03, 2022 3:06:42 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '404' -> incorrect JSON status mapping for 'no such window' (400 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunner" time="2.476">
+    <failure message="unknown error: cannot determine loading status&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;DESKTOP-D5OBL1K&apos;, ip: &apos;192.168.1.162&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}), userDataDir=C:\Users\anilc\AppData\Local\Temp\scoped_dir23772_270764739}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57653}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.5060.134, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 2e949ac9bc5c5eba38660fa2db7aa5c1" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-D5OBL1K', ip: '192.168.1.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}), userDataDir=C:\Users\anilc\AppData\Local\Temp\scoped_dir23772_270764739}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57653}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.5060.134, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 2e949ac9bc5c5eba38660fa2db7aa5c1
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Book one way flight for the user from Ahemdabad to Chennai                                                                                    &amp#27;[90m# src/test/java/features/FlightBooking.feature:35&amp#27;[0m
+Start of the Test Suite
+Start of Test
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser launches website successfully for one way trip&amp#27;[0m                                                                                                     &amp#27;[90m# stepdefinition.FlightBookingStepDefinition.launchURL()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-D5OBL1K', ip: '192.168.1.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}), userDataDir=C:\Users\anilc\AppData\Local\Temp\scoped_dir23772_270764739}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57653}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.5060.134, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 2e949ac9bc5c5eba38660fa2db7aa5c1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:370)
+	at commonutilities.CommonMethods.launchPage(CommonMethods.java:142)
+	at stepdefinition.FlightBookingStepDefinition.launchURL(FlightBookingStepDefinition.java:37)
+	at âœ½.User launches website successfully for one way trip(file:///C:/Users/anilc/selenium_training/CaseStudy2/src/test/java/features/FlightBooking.feature:27)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser provides details for "&amp#27;[0m&amp#27;[36m&amp#27;[1mRound-trip&amp#27;[0m&amp#27;[36m" flight with "&amp#27;[0m&amp#27;[36m&amp#27;[1m06-08-2022&amp#27;[0m&amp#27;[36m" and "&amp#27;[0m&amp#27;[36m&amp#27;[1m02-09-2022&amp#27;[0m&amp#27;[36m" from "&amp#27;[0m&amp#27;[36m&amp#27;[1mCoimbatore&amp#27;[0m&amp#27;[36m" to "&amp#27;[0m&amp#27;[36m&amp#27;[1mChennai&amp#27;[0m&amp#27;[36m" with class as "&amp#27;[0m&amp#27;[36m&amp#27;[1mBusiness&amp#27;[0m&amp#27;[36m" for "&amp#27;[0m&amp#27;[36m&amp#27;[1m2&amp#27;[0m&amp#27;[36m","&amp#27;[0m&amp#27;[36m&amp#27;[1m1&amp#27;[0m&amp#27;[36m","&amp#27;[0m&amp#27;[36m&amp#27;[1m1&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# stepdefinition.FlightBookingStepDefinition.flightBookingTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int,int)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser able to click on Search and get the list of flights available&amp#27;[0m                                                                                       &amp#27;[90m# stepdefinition.FlightBookingStepDefinition.searchflights()&amp#27;[0m
+End of Test
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-D5OBL1K', ip: '192.168.1.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}), userDataDir=C:\Users\anilc\AppData\Local\Temp\scoped_dir23772_270764739}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57653}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.5060.134, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 2e949ac9bc5c5eba38660fa2db7aa5c1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:532)
+	at commonutilities.BaseTest.closeAll(BaseTest.java:56)
+	at stepdefinition.FlightBookingStepDefinition.cleanup(FlightBookingStepDefinition.java:92)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 39942
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 03, 2022 3:06:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:ERROR Could not find value for key log4j.appender.CONSOLE
+log4j:ERROR Could not instantiate appender named "CONSOLE".
+Aug 03, 2022 3:06:44 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '404' -> incorrect JSON status mapping for 'no such window' (400 expected)
+]]></system-err>
+  </testcase>
+</testsuite>
